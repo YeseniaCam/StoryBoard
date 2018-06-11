@@ -1,0 +1,72 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-categories {
+  padding: 0px 0px;
+  font-size: 17px;
+  border-radius: 0px;
+  width:80%;
+}
+
+.nav-tabs > li > a:hover {
+
+    border-color: #eee #eee #ddd;
+
+}
+.nav > li > a:focus, .nav > li > a:hover {
+
+    text-decoration: none;
+    background-color: #eee;
+    text-decoration: none;
+    background-color: #eee;
+
+}
+.nav-tabs > li > a {
+
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid #0000;
+        border-top-color: rgba(0, 0, 0, 0);
+        border-right-color: rgba(0, 0, 0, 0);
+        border-bottom-color: rgba(0, 0, 0, 0);
+        border-left-color: rgba(0, 0, 0, 0);
+    border-radius: 4px 4px 0 0;
+
+}
+.nav > li > a {
+
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+
+}
+
+
+.tab-content{
+ overflow-x: scroll;
+overflow-y: hidden;
+}
+
+
+.tab-content > .tab-pane {
+    width: 2000px;
+    }
+
+
+.tab-content > .tab-pane {
+    min-width: 3000px;
+    max-height: 300px;
+}
+.center-block {
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}

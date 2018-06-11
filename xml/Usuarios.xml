@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Usuarios xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="storyboarduserschema.xsd">
+    
+    <Usuario>
+    	<Nombre>Profesor</Nombre>
+    	<Correo>Prof@gmail.com</Correo>
+    	<Username>Profesor</Username>
+    	<Password>1234</Password>
+    	<Tipo>Profesor</Tipo>
+    </Usuario>
+    
+    <Usuario>
+    	<Nombre>Admin</Nombre>
+    	<Correo>Prof@gmail.com</Correo>
+    	<Username>Administrador</Username>
+    	<Password>1234</Password>
+    	<Tipo>Administrador</Tipo>
+    </Usuario>
+    
+<Usuario><Nombre>Alumno</Nombre><Correo>alumno@alumno.com</Correo><Username>Alumno</Username><Password>1234</Password><Tipo>Estudiante</Tipo><Grupo>3CM9</Grupo></Usuario></Usuarios>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AlumnoStorys xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="./xml/AlumnoStorySchema.xsd">
+<AlumnoStory><storyboard>x</storyboard><mensaje></mensaje><tipo>StoryBoard</tipo><calificacion></calificacion><profesor>Profesor</profesor></AlumnoStory></AlumnoStorys>

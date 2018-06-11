@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.1.0/fabric.all.min.js' ></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='https://code.jquery.com/ui/1.12.1/jquery-ui.js'></script>
+    <link rel='stylesheet' href='//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+    <link rel='stylesheet' href='./css/login.css' type='text/css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.12/css/all.css' integrity='sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9' crossorigin='anonymous'>
+    
+</head>
+<body class="h-100">
+        <div class="container-fluid h-100" id="loginback">
+                <div class="row justify-content-center h-100">
+                  <div class="col-4"></div>
+                  <div class="col-4" align = "center" id="loginbox2">
+                        <div class="card text-left" style="width:380px">
+                                <div class="card-header" align="center">
+                                    <h2>Inicio de Sesión</h2>
+                                </div>
+                                <div class="card-body">
+                                    <div class="container">       
+                                            <div class="form-group">
+                                                <div class="form-group">                           
+                                                    <label for="inputName">Usuario</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                                <span class="input-group-text backicon" id="basic-addon"><i class="fas fa-user iconlogin"></i></span>
+                                                        </div>
+                                                        <input type="text" name="username" class="form-control" placeholder="Ingresa tu Usuario" aria-describedby="basic-addon1" id="inputName">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">                           
+                                                    <label for="inputEmail">Contraseña</label>
+                                                    <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                    <span class="input-group-text backicon" id="basic-addon"><i class="fas fa-lock iconlogin"></i></span>
+                                                            </div>
+                                                            <input type="password" name="password" class="form-control" placeholder="Ingresa la Contraseña" aria-describedby="basic-addon1" id="inputEmail">
+                                                    </div>
+                                                </div>                                                     
+                                            </div>
+                                            <div align="center">
+                                                <div class="card-footer">
+                                                  <div class="row justify-content-center">
+                                                      <button id="Login" onclick="CheckUser('./Login')" class="btn buttonregister">Iniciar Sesión</button>
+                                                  </div>
+                                                
+                                            
+                                                    
+                                                </div>
+                                            </div> 
+                                    </div>
+                                </div>   
+                            </div> 
+                  </div>
+                  <div class="col-4"></div>
+                </div>
+        </div>
+        <div id='dialog-message' title='Error'>
+            <p id ='dialogmessage'></p>
+        </div>
+</body>
+<script src='./jss/readXML.js'></script>
+</html>

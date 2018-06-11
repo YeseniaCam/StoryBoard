@@ -1,0 +1,59 @@
+#loginbox {
+    padding-top: 50px;
+}
+
+#loginbox2 {
+    padding-top: 160px;
+}
+
+#loginback{
+    background: linear-gradient(to bottom, #003366 0%, #33ccff 100%);
+}
+
+.iconlogin{
+        color: #fff;
+        text-shadow: 1px 1px 1px #ccc;
+        font-size: 1em;
+}
+
+.iconuser{
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: .8em;
+}
+
+.backicon{
+    background: rgb(27, 112, 160)
+}
+
+.buttonregister{
+
+        color: #FFFFFF; 
+        background-color:rgb(27, 112, 160); 
+        border-color: #5A5185; 
+      
+}
+
+.secbutton{
+
+    color: #FFFFFF; 
+    background-color:rgb(7, 64, 97);
+    border-color: #5A5185; 
+  
+}
+
+.secbuttondiv{
+    padding-top: 5px;
+}
+
+.btn-xss {
+    padding: 3px 2px;
+    font-size: 10px;
+    border-radius: 1px;
+}
+
+.btn-xbigbig {
+    padding: 3px 2px;
+    font-size: 50px;
+    border-radius: 1px;
+}

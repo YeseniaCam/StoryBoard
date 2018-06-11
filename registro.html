@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang='en' class='h-100'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Document</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous'>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.1.0/fabric.all.min.js' ></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+    <script src='./jss/validatelog.js'></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel='stylesheet' href='./css/login.css' type='text/css'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.12/css/all.css' integrity='sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9' crossorigin='anonymous'>
+    
+</head>
+<body class='h-100' id="main">
+        <div class='container-fluid h-100 justify-content-center' id='loginback'>
+                <div class='row justify-content-center h-100'>
+                    
+
+                  <div class='col-6 justify-content-center' align='center' id='loginbox'>
+                        <div class='card  text-left' style='width:380px'>
+                                <div class='card-header'>
+                                    <h2>Registro</h2>
+                                </div>
+                                <div class='card-body'>
+                                    <div class='container'>
+                                        <form method='POST' action='./Registro' onsubmit="return ejemplo();">
+                                            <div class='form-group'>
+                                                <div class='form-group'>                           
+                                                    <label for='inputName'>Nombre</label>
+                                                    <div class='input-group'>
+                                                        <div class='input-group-prepend'>
+                                                                <span class='input-group-text backicon' id='basic-addon'><i class='fas fa-user iconlogin'></i></span>
+                                                        </div>
+                                                        <input type='text' name='nombre' class='form-control' placeholder='Ingresa tu Nombre' aria-describedby='basic-addon1' id='inputName'>
+                                                    </div>
+                                                </div>
+                                                <div class='form-group'>                           
+                                                    <label for='inputEmail'>Correo Electrónico</label>
+                                                    <div class='input-group'>
+                                                            <div class='input-group-prepend'>
+                                                                    <span class='input-group-text backicon' id='basic-addon'><i class='fas fa-at iconlogin'></i></span>
+                                                            </div>
+                                                            <input type='email' name='correo' class='form-control' placeholder='Ingresa tu correo electrónico' aria-describedby='basic-addon1' id='inputEmail'>
+                                                    </div>
+                                                </div>
+                                                <div class='form-group'>                           
+                                                    <label for='inputUser'>Usuario</label>
+                                                    <div class='input-group'>
+                                                            <div class='input-group-prepend'>
+                                                                    <span class='input-group-text backicon' id='basic-addon'><i class='fas fa-users iconuser'></i></span>
+                                                            </div>
+                                                            <input type='text' name='user' class='form-control' placeholder='Ingresa un Nombre de Usuario' aria-describedby='basic-addon1' id='inputUser'>
+                                                    </div>
+                                                </div>
+                                                <div class='form-group'>                           
+                                                        <label for='inputCon'>Contraseña</label>
+                                                        <div class='input-group'>
+                                                                <div class='input-group-prepend'>
+                                                                    <span class='input-group-text backicon' id='basic-addon'><i class='fas fa-lock iconlogin'></i></span>
+                                                                </div>
+                                                                <input type='password' name='contrasena1' class='form-control' placeholder='Ingresa una Contraseña' aria-describedby='basic-addon1' id 'inputCon'>
+                                                            </div>
+                                                </div>
+                                                <div class='form-group'>                           
+                                                    <label for='inputCon2'>Confirmar Contraseña</label>
+                                                    <div class='input-group'>
+                                                            <div class='input-group-prepend'>
+                                                                    <span class='input-group-text backicon' id='basic-addon'><i class='fas fa-lock iconlogin'></i></span>
+                                                            </div>
+                                                            <input type='password' name='contrasena2' class='form-control' placeholder='Reingresa la Contraseña' aria-describedby='basic-addon1' id='inputCon2'>
+                                                    </div>
+                                                </div>
+                                                <div class='form-group'>                           
+                                                        <label for='inputType'>Tipo de Usuario</label>
+                                                        <div class='input-group'>
+                                                                <div class='input-group-prepend'>
+                                                                        <span class='input-group-text backicon' id='basic-addon'><i class='far fa-bookmark iconlogin' aria-hidden='false'></i></span>
+                                                                </div>
+                                                                <select class='form-control' name='tipo' id='inputType' placeholder='Selecciona Tipo de Usuario'>
+                                                                        <option value='Estudiante'>Estudiante</option>
+                                                                        <option value='Profesor'>Profesor</option>
+                                                                        <option value='Administrador'>Administrador</option>
+                                                                </select>
+                                                        </div>
+                                                    </div>
+                                            
+                                            </div>
+                                            <div align='center'>
+                                                <div class='card-footer'>
+                                                    <button type='submit' class='btn buttonregister'>Registrar</button>
+                                                </div>
+                                            </div> 
+                                        </form>	
+                                    </div>
+                                </div>   
+                            </div> 
+                  </div>
+                </div>
+        </div>
+        <div id="dialog-message" title="Error">
+                <p id ="dialogmessage"></p>
+        </div>
+</body>
+</html>

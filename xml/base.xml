@@ -1,0 +1,25 @@
+<StoryBoards>
+    <StoryBoard>
+        <Nombre></Nombre>
+        <Tipo></Tipo>
+        <Slides numero="">
+            <Slide></Slide>
+            <Slide></Slide>
+            <Slide></Slide>
+            <Slide></Slide>
+            
+            <Slide></Slide>
+            <Slide></Slide>
+        <Slides>
+    </StoryBoard>
+    <StoryBoard>
+        <Nombre></Nombre>
+        <Tipo></Tipo>
+        <Video></Video>
+    </StoryBoard>
+    <StoryBoard>
+        <Nombre></Nombre>
+        <Tipo></Tipo>
+        <Texto></Texto>
+    </StoryBoard>
+</StoryBoards>

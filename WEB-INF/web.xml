@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+"http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    
+    <servlet>
+        <servlet-name>GroupActions</servlet-name>
+        <servlet-class>GroupActions</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GroupActions</servlet-name>
+        <url-pattern>/GroupActions</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Groups</servlet-name>
+        <servlet-class>Groups</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Groups</servlet-name>
+        <url-pattern>/Groups</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SendNotes</servlet-name>
+        <servlet-class>SendNotes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SendNotes</servlet-name>
+        <url-pattern>/SendNotes</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>SendGrades</servlet-name>
+        <servlet-class>SendGrades</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SendGrades</servlet-name>
+        <url-pattern>/SendGrades</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>GetNotes</servlet-name>
+        <servlet-class>GetNotes</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetNotes</servlet-name>
+        <url-pattern>/GetNotes</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StoryBoard</servlet-name>
+        <servlet-class>StoryBoard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StoryBoard</servlet-name>
+        <url-pattern>/StoryBoard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>Login</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>Registro</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/Registro</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MainAdmin</servlet-name>
+        <servlet-class>MainAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainAdmin</servlet-name>
+        <url-pattern>/Administrador</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MainEstudiante</servlet-name>
+        <servlet-class>MainEstudiante</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainEstudiante</servlet-name>
+        <url-pattern>/Estudiante</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MainProfesor</servlet-name>
+        <servlet-class>MainProfesor</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainProfesor</servlet-name>
+        <url-pattern>/Profesor</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>abc</servlet-name>
+        <servlet-class>abc</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>abc</servlet-name>
+        <url-pattern>/AltasBajasCambios</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>ModificarUser</servlet-name>
+        <servlet-class>ModificarUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModificarUser</servlet-name>
+        <url-pattern>/modify</url-pattern>
+    </servlet-mapping>
+
+     <servlet>
+        <servlet-name>UpdateModify</servlet-name>
+        <servlet-class>UpdateModify</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateModify</servlet-name>
+        <url-pattern>/UpdateModify</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>eliminar</servlet-name>
+        <servlet-class>eliminar</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>eliminar</servlet-name>
+        <url-pattern>/Eliminar</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>AddUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/NuevoUsuario</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>MainProyects</servlet-name>
+        <servlet-class>MainProyects</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainProyects</servlet-name>
+        <url-pattern>/MisProyectos</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MainStoryBoards</servlet-name>
+        <servlet-class>MainStoryBoards</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MainStoryBoards</servlet-name>
+        <url-pattern>/MainStoryBoards</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateStoryBoard</servlet-name>
+        <servlet-class>CreateStoryBoard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateStoryBoard</servlet-name>
+        <url-pattern>/CreateStoryBoard</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Storyboardsprof</servlet-name>
+        <servlet-class>Storyboardsprof</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Storyboardsprof</servlet-name>
+        <url-pattern>/StoryBoard1</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SaveStoryBoard</servlet-name>
+        <servlet-class>SaveStoryBoard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SaveStoryBoard</servlet-name>
+        <url-pattern>/SaveStoryBoard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateXMLVideo</servlet-name>
+        <servlet-class>UpdateXMLVideo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateXMLVideo</servlet-name>
+        <url-pattern>/UpdateXMLVideo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateXMLTexto</servlet-name>
+        <servlet-class>UpdateXMLTexto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateXMLTexto</servlet-name>
+        <url-pattern>/UpdateXMLTexto</url-pattern>
+    </servlet-mapping>
+      <servlet>
+        <servlet-name>playvideo</servlet-name>
+        <servlet-class>playvideo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>playvideo</servlet-name>
+        <url-pattern>/playvideo</url-pattern>
+    </servlet-mapping>
+     
+      <servlet>
+        <servlet-name>DeleteVideo</servlet-name>
+        <servlet-class>DeleteVideo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteVideo</servlet-name>
+        <url-pattern>/EliminarVideo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteText</servlet-name>
+        <servlet-class>DeleteText</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteText</servlet-name>
+        <url-pattern>/EliminarTexto</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteStory</servlet-name>
+        <servlet-class>DeleteStory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteStory</servlet-name>
+        <url-pattern>/EliminarStory</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Modifystoryboard</servlet-name>
+        <servlet-class>Modifystoryboard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Modifystoryboard</servlet-name>
+        <url-pattern>/Modifystoryboard</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateStoryBoard</servlet-name>
+        <servlet-class>UpdateStoryBoard</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateStoryBoard</servlet-name>
+        <url-pattern>/UpdateStoryBoard</url-pattern>
+    </servlet-mapping>
+
+        <servlet>
+        <servlet-name>ModifyTexto</servlet-name>
+        <servlet-class>ModifyTexto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ModifyTexto</servlet-name>
+        <url-pattern>/ModifyTexto</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateText</servlet-name>
+        <servlet-class>UpdateText</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateText</servlet-name>
+        <url-pattern>/UpdateText</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateXMLImagen</servlet-name>
+        <servlet-class>UpdateXMLImagen</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateXMLImagen</servlet-name>
+        <url-pattern>/UpdateXMLImagen</url-pattern>
+    </servlet-mapping>
+
+ <servlet>
+        <servlet-name>UploadServletImagen</servlet-name>
+        <servlet-class>UploadServletImagen</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServletImagen</servlet-name>
+        <url-pattern>/UploadServletImagen</url-pattern>
+    </servlet-mapping>
+
+
+   <servlet>
+        <servlet-name>DeleteImage</servlet-name>
+        <servlet-class>DeleteImage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteImage</servlet-name>
+        <url-pattern>/EliminarImagen</url-pattern>
+    </servlet-mapping>
+
+
+ <servlet>
+        <servlet-name>UploadServletAudio</servlet-name>
+        <servlet-class>UploadServletAudio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UploadServletAudio</servlet-name>
+        <url-pattern>/UploadServletAudio</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateXMLAudio</servlet-name>
+        <servlet-class>UpdateXMLAudio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateXMLAudio</servlet-name>
+        <url-pattern>/UpdateXMLAudio</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteAudio</servlet-name>
+        <servlet-class>DeleteAudio</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteAudio</servlet-name>
+        <url-pattern>/EliminarAudio</url-pattern>
+    </servlet-mapping>
+
+    
+</web-app>
